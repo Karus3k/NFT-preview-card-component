@@ -1,0 +1,106 @@
+:root {
+    --color-VeryDarkBlueMain: hsl(217, 54%, 11%);
+    --color-VeryDarkBlueCard: hsl(216, 50%, 16%);
+    --color-SoftBlue: hsl(215, 51%, 70%);
+    --color-Cyan: hsl(178, 100%, 50%);
+    --color-White: hsl(248, 100%, 100%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.root {
+    align-items: center;
+    background-color: var(--color-VeryDarkBlueMain);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 375px;
+    padding: 24px auto;
+    width: 100vw;
+}
+.card {
+    background-color: var(--color-VeryDarkBlueCard);
+    border-radius: 25px;
+    max-height: 90%;
+    padding: 24px;
+    max-width: 365px;
+}
+.picture {
+    aspect-ratio: 1 / 1;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    flex: 1;
+}
+h1 {
+    color: var(--color-White);
+    font-size: 24px;
+    margin: 24px auto;
+}
+p {
+    color: var(--color-SoftBlue);
+    font-size: 18px;
+}
+.value {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto;
+}
+.icon-text-pair {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon-text-pair span {
+    margin-left: 5px;
+}
+.price {
+    color: var(--color-Cyan);
+}
+.time-left {
+    color: var(--color-SoftBlue);
+}
+.line {
+    background-color: var(--color-SoftBlue);
+    min-height: 1px;
+    max-width: 100%;
+}
+.autor{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px auto;
+}
+.avatar {
+    aspect-ratio: 1 / 1;
+    background-image: url("./images/image-avatar.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    margin-right: 15px;
+    max-width: 44px;
+}
+.created-by1 {
+    color: var(--color-SoftBlue);
+    font-size: 18px;
+    margin: 10px;
+}
+.created-by2 {
+    color: var(--color-White);
+    font-size: 18px;
+}
+.attribution {
+    margin: 4px auto;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
