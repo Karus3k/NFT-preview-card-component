@@ -72,25 +72,24 @@ p {
     max-width: 100%;
 }
 .autor{
-    align-items: center;
     display: flex;
-    justify-content: flex-start;
     margin: 24px auto;
 }
 .avatar {
-    aspect-ratio: 1 / 1;
     background-image: url("./images/image-avatar.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     flex: 1;
-    margin-right: 15px;
-    max-width: 44px;
+    height: 33px;
+    max-width: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%;
 }
 .created-by1 {
     color: var(--color-SoftBlue);
     font-size: 18px;
-    margin: 10px;
+    margin: 0 10px;
 }
 .created-by2 {
     color: var(--color-White);
